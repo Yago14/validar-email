@@ -7,8 +7,10 @@
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
   <link rel="stylesheet" href="Reset.css">
   <link rel="stylesheet" href="Estilos.css">
+  <script defer  src="scrips.js"></script>
 
   <div class="container">
+
     <div class="infor">
 
       <h1>Stay updated!</h1>
@@ -20,28 +22,31 @@
         <li><img src="assets/images/icon-list.svg" alt="">And much more!</li>
       </ul>
 
-      <h3>Email address</h3>
+      <h4>Email address</h4>
 
-      <input type="email" placeholder="email@company.com">
-      <button type="button">Subscribe to monthly newsletter</button>
+      <input class="email" type="email" placeholder="email@company.com" pattern=".+@gmail.com" size="30" required />
+
+      <button class="btn" type="button">Subscribe to monthly newsletter</button>
 
     </div>
     <div class="banner">
     </div>
   </div>
 
-  <!-- Sign-up form end -->
 
-  <!-- Success message start -->
 
-  <!-- Thanks for subscribing!
 
-  A confirmation email has been sent to ash@loremcompany.com. 
-  Please open it and click the button inside to confirm your subscription.
-
-  Dismiss message -->
-
-  <!-- Success message end -->
+  <div class="menssagem display-none">
+    <img src="assets/images/icon-list.svg" height="40px" width="40px" alt="">
+    <h1>Thanks for subscribing!</h1>
+    <p>
+      A confirmation email has been sent to <strong class="ms-email"></strong>.
+      Please open it and click the button inside to confirm your subscription.
+    </p>
+ 
+    <button class="btn-dismiss">   Dismiss message</button>
+   
+  </div>
 
 
   </body>

@@ -1,6 +1,6 @@
 .container {
     width: 700px;
-    height: 400px;
+    height: 500px;
     display: flex;
     flex-direction: row;
     background-color: #fff;
@@ -14,19 +14,52 @@
     justify-content: center;
     margin: 2rem;
     width: 300px;
+    color: hsl(234, 29%, 20%);
+    
 
 }
 .infor h1{
     margin: 0 0 2rem ;
     text-align: center;
+    font-weight: 700;
+
 }
+
+
 .infor ul li {
     list-style: none;
     margin: 1rem 0  ;
     font-size: small;
+    font-weight: 400;
+    
 }
 .infor ul li img {
     margin-right: 1rem;
+}
+.infor h4 {
+    margin:  1rem  0 ;
+}
+.infor input{
+    height: 3rem ;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+}
+.infor button{
+
+    height: 3rem ;
+    border-radius: 0.5rem;
+    background-color:hsl(234, 29%, 20%) ;
+    color: #fff;
+    cursor: pointer;
+    
+
+}
+.infor button:hover{
+    scale: 1.04;
+    transition: all 400ms;
+
 }
 .banner{
     width: 300px;
@@ -36,4 +69,45 @@
     background-size: cover;
     margin: 1rem;
     border-radius:  1rem ;
+}
+
+.menssagem{
+   
+    margin-top: 1rem;
+    background-color: #fff;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 2rem 2rem 2rem ;
+    border-radius: 1rem;
+    color: hsl(234, 29%, 20%);
+}
+.menssagem img{
+    margin: 1rem 0;
+}
+.menssagem h1{
+ margin-bottom: 1rem;
+}
+
+.menssagem p{
+    font-weight: 400;
+    font-size: small;
+    margin-bottom: 1rem;
+}
+
+.menssagem button{
+    height: 3rem ;
+    border-radius: 0.5rem;
+    background-color:hsl(234, 29%, 20%) ;
+    color: #fff;
+    cursor: pointer;
+
+}
+.display-none{
+    display: none;
+}
+.bordas-vermelhas {
+    border: solid 2px red !important;
 }
