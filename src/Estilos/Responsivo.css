@@ -1,0 +1,27 @@
+@media (max-width:715px){
+    .container{
+        flex-direction: column-reverse;
+        height: 720px;
+        width: 375px;
+    }
+    .banner{
+        margin: 0;
+        height: 40vh;
+        width: 375px;
+        background-image: url(../../assets/images/illustration-sign-up-mobile.svg);
+        background-size: cover;
+        border-radius: 0 0 1rem 1rem;
+    }
+    .menssagem{
+        height: 100vh;
+       
+    
+    }
+    .menssagem .confirm{
+        
+    }
+    .menssagem button{
+        top: 300px;
+    }
+
+}

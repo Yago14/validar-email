@@ -5,9 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontend Mentor | Newsletter sign-up form with success message</title>
-  <link rel="stylesheet" href="Reset.css">
-  <link rel="stylesheet" href="Estilos.css">
-  <script defer  src="scrips.js"></script>
+  <link rel="stylesheet" href="src/Estilos/Reset.css">
+  <link rel="stylesheet" href="src/Estilos/Estilos.css">
+  <link rel="stylesheet" href="src/Estilos/Responsivo.css">
+  <script defer src="scrips.js"></script>
 
   <div class="container">
 
@@ -21,12 +22,16 @@
         <li><img src="assets/images/icon-list.svg" alt="">Measuring to ensure updates are a success</li>
         <li><img src="assets/images/icon-list.svg" alt="">And much more!</li>
       </ul>
+   
 
-      <h4>Email address</h4>
+        <h4>Email address</h4>
 
-      <input class="email" type="email" placeholder="email@company.com" pattern=".+@gmail.com" size="30" required />
 
-      <button class="btn" type="button">Subscribe to monthly newsletter</button>
+        <input class="email" type="email" placeholder="email@company.com" size="30" required />
+     
+
+      <button class="btn" type="submit">Subscribe to monthly newsletter</button>
+
 
     </div>
     <div class="banner">
@@ -38,14 +43,16 @@
 
   <div class="menssagem display-none">
     <img src="assets/images/icon-list.svg" height="40px" width="40px" alt="">
-    <h1>Thanks for subscribing!</h1>
-    <p>
-      A confirmation email has been sent to <strong class="ms-email"></strong>.
-      Please open it and click the button inside to confirm your subscription.
-    </p>
- 
-    <button class="btn-dismiss">   Dismiss message</button>
-   
+    <div class="confirm">
+      <h1>Thanks for subscribing!</h1>
+      <p>
+        A confirmation email has been sent to <strong class="ms-email"></strong>.
+        Please open it and click the button inside to confirm your subscription
+      </p>
+    </div>
+
+    <button class="btn-dismiss"> Dismiss message</button>
+
   </div>
 
 
